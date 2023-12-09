@@ -46,7 +46,7 @@ class Main(QWidget):
         self.mainTitle = QLabel("Welcome!", self);
 
         mainTextFont = self.mainTitle.font()
-        mainTextFont.setFamily('Pretendard Variable')
+        mainTextFont.setFamily('Pretendard JP Variable')
         mainTextFont.setPointSize(20)
 
     def center(self):
