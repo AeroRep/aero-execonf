@@ -55,8 +55,16 @@ class Main(QWidget):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
+stylesheet = """
+    MainWindow {
+        background-image: url('./src/img/B_Gradient_Blur_1920.png'); 
+        background-repeat: no-repeat; 
+        background-position: center;
+    }
+"""
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    app.setStyleSheet(stylesheet)
     ex = Main()
     sys.exit(app.exec_())
