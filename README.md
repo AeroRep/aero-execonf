@@ -1,2 +1,2 @@
-# aero-oobe
-OutOfBoxExperience
+# aero-execonf
+Windows EXE compatible layer for aero
